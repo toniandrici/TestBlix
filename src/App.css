@@ -1,0 +1,11 @@
+
+input:required:invalid  {
+
+  border: 2px solid red;
+
+}
+
+/* Style for the validation message when the input is valid */
+input:required:valid + span::after {
+  content: '';
+}
